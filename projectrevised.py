@@ -36,7 +36,7 @@ def create_lists_board(listStrings, pythShnLc, playLoc):
                 line = line[:13] + line[14:]
             if len(diam) == 4:
                 line = line[:14] + line[15:]
-        board = board + [line] #continously concatenates lines of the board
+        board = board + [line] #continuously concatenates lines of the board
     return board
 
 def show_board(mssg): #prepares the board for printing
